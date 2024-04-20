@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #37745B;
+    padding: 20px;
+    width: 1100px;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: center;
+    border: 1px none white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    width: 200px;
+    height: 60px;
+}
+
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom: 2px none #37745B;
+    padding-bottom: 5px;
+    width: 1100px;
+    
+}
+
+h2 {
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px none white;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+.nb_news {
+    background-color: #37745B;
+    color: white;
+}
+
+footer {
+    background-color: #37745B;
+    padding: 10px;
+    width: 1100px;
+}
+
+footer p {
+    background-color: #37745B;
+    padding: 5px;
+}
+.page{
+    width: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+
+.product {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #EDC5AB;
+    position: relative;
+}
+
+.product::before {
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.product:hover::before {
+    opacity: 1;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.product:hover{
+     box-shadow: 0px 10px 15px 0px orange;
+     top:10px ;
+}
+.ass{
+    text-decoration: none;
+    background-color: #37745B;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.ssa{
+ text-decoration: none;
+    background-color: #37745B;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.sp_button{
+    text-decoration: none;
+}
+a{
+   text-decoration: none;  
+}
+.video{
+    background-color: #37745B;
+     margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.vvv{
+    background-color: #37745B;
+    border-radius: 20px;
+     margin: auto;
+  width: 50%;
+  padding: 5px;
+}
+.vvv:hover{
+     box-shadow: 0px 15px 20px 0px rgb(7, 71, 8);
+     top:20px ;
+}

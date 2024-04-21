@@ -1,3 +1,16 @@
+.sp_button:hover{
+    box-shadow: 0px 10px 15px 0px blue;
+     top:10px ;
+}
+.neww:hover{
+    box-shadow: 0px 10px 15px 0px blue;
+     top:10px ;
+}
+.new:hover{
+    box-shadow: 0px 10px 15px 0px blue;
+     top:10px ;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -26,8 +39,7 @@ header img {
 }
 
 .sp_button {
-    background-color: #2adede;
-    border: 1px solid #2adede;
+   
 }
 
 h1 {
@@ -169,6 +181,10 @@ a{
      margin: auto;
   width: 50%;
   padding: 5px;
+}
+.vvv:hover{
+     box-shadow: 0px 15px 20px 0px rgb(7, 71, 8);
+     top:20px ;
 }
 .vvv:hover{
      box-shadow: 0px 15px 20px 0px rgb(7, 71, 8);
